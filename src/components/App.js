@@ -3,11 +3,10 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
-import './App.css';
-import Form from './Form.js';
-import Confirmation from './Confirmation.js';
+import { Form } from './index';
+import { Confirmation } from './index';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <Router>
@@ -24,5 +23,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

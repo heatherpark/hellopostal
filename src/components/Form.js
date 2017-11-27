@@ -2,7 +2,7 @@ import _ from 'lodash';
 import React, { Component } from 'react';
 import { FormControl, FormGroup, Col, Row, Grid, Button } from 'react-bootstrap';
 import axios from 'axios';
-import { receiveConfirmation, changeFormField, startFetching, finishFetching } from './actions/actions.js';
+import { receiveConfirmation, changeFormField, startFetching, finishFetching } from '../actions';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 

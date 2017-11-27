@@ -1,4 +1,4 @@
-import { RECEIVE_CONFIRMATION, CHANGE_FORM_FIELD, CLEAR_TO_FIELDS, FINISH_FETCHING, START_FETCHING } from '../actions/actions.js';
+import { RECEIVE_CONFIRMATION, CHANGE_FORM_FIELD, CLEAR_TO_FIELDS, FINISH_FETCHING, START_FETCHING } from '../actions';
 import { combineReducers, createStore, applyMiddleware } from 'redux';
 import logger from 'redux-logger';
 

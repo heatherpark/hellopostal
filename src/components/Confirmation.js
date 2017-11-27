@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Image, Button } from 'react-bootstrap';
 import { withRouter } from 'react-router-dom';
-import { clearToFields } from './actions/actions.js'
-import Loading from './Loading.js';
+import { clearToFields } from '../actions'
+import { Loading } from './index';
 
 class Confirmation extends Component {
   constructor() {
